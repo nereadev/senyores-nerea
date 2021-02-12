@@ -40,9 +40,17 @@ a {
     text-decoration: none;
 }
 
-article {
+main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+article {  
+    display: flex;
+    background-color: rgb(108, 165, 201);
+    margin: 20px;
+    border-radius: 20px;
 }
 
 @media(max-width:800px) {
@@ -55,4 +63,50 @@ article {
 article {
     width: 80vw;
 }
+}
+
+section {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    position: relative;
+}
+
+section.texto {
+    border-left-style: dotted;
+    border-color: white;
+    padding: 10px;
+}
+
+h2 {
+    margin: 0 0 5px 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    width: 80%;
+    border-radius: 1000px;
+}
+
+p.redondo {
+    padding: 0;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: maroon;
+    position: absolute;
+    top: 95px;
+    left: 100px;
 }
