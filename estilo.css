@@ -62,7 +62,7 @@ article {
 section {
     display: flex;
     margin: 10px;
-    padding: 10px;
+    padding: 0px;
     flex-direction: column;
     position: relative;
 }
@@ -70,11 +70,11 @@ section {
 section.texto {
     border-left-style: dotted;
     border-color: white;
-    padding: 10px;
+
 }
 
 h2 {
-    margin: 0 0 5px 0;
+    padding: 0 0 5px 10px;
 }
 
 ul {
@@ -106,7 +106,7 @@ p.redondo {
     background-color: maroon;
     position: absolute;
     top: 100px;
-    left: 110px;
+    left: 95px;
 }
 
 i {
